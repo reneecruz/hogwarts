@@ -64,7 +64,7 @@ ul {
 
 .subtleText {
   color: #D1D1D1;
-  font-size: .75em; 
+  font-size: .75em;
 }
 
 
@@ -131,6 +131,27 @@ ul {
 .footer {
   padding: 1%;
   clear: both;
+}
+
+.sort{
+  margin:25px;
+}
+
+.filter{
+  margin: 10px;
+}
+
+.card {
+  box-shadow: 5px 10px 15px 5px #888888;
+  border-radius: 15px;
+}
+
+.card img{
+  border-radius: 15px;
+}
+
+.column{
+  margin: 15px auto;
 }
 
 

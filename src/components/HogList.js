@@ -4,13 +4,13 @@ import HogTile from './HogTile';
 class HogList extends React.Component {
 
   render() {
-    console.log(this.props.hogs)
+    // console.log(this.props.hogs)
 
     return(
-      <div className="ui grid container">
+      <div className="ui three stackable cards">
           {
               this.props.hogs.map(hog => {
-                  return <HogTile hog={hog} key={hog.id}/>
+                  return <HogTile hog={hog} key={hog.id} />
               })
           }
       </div>

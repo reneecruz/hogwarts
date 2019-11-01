@@ -4,7 +4,13 @@ class Sort extends Component {
 
   render() {
     return (
-      <div></div>
+      <div className="sort">
+        <select  onChange={this.props.handleSort}>
+          <option value="all">All</option>
+          <option value="weight">Weight</option>
+          <option value="name">Name</option>
+        </select>
+      </div>
     )
 
   }
